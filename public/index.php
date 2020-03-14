@@ -16,7 +16,7 @@ require 'vendor/autoload.php';
 
 $params = [
   'debug' => true,
-  'users' => ['admin' => 'password'],
+  'users' => ['admin' => 'admin'],
 ];
 
 $aura = new Aura\Router\RouterContainer();
