@@ -8,6 +8,7 @@ use Interop\Http\Server\RequestHandlerInterface;
 use PHPUnit\Framework\TestCase;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
+use Tests\Framework\Http\DummyContainer;
 use Zend\Diactoros\Response;
 use Zend\Diactoros\Response\EmptyResponse;
 use Zend\Diactoros\Response\HtmlResponse;
@@ -21,14 +22,14 @@ class MiddlewareResolverTest extends TestCase
      */
     public function testDirect($handler): void
     {
-        $resolver = new MiddlewareResolver();
+        $resolver = new MiddlewareResolver(new DummyContainer());
         $middleware = $resolver->resolve($handler, new Response());
 
         /** @var ResponseInterface $response */
         $response = $middleware(
-            (new ServerRequest())->withAttribute('attribute', $value = 'value'),
-            new Response(),
-            new NotFoundMiddleware()
+          (new ServerRequest())->withAttribute('attribute', $value = 'value'),
+          new Response(),
+          new NotFoundMiddleware()
         );
 
         self::assertEquals([$value], $response->getHeader('X-Header'));
@@ -40,14 +41,14 @@ class MiddlewareResolverTest extends TestCase
      */
     public function testNext($handler): void
     {
-        $resolver = new MiddlewareResolver();
+        $resolver = new MiddlewareResolver(new DummyContainer());
         $middleware = $resolver->resolve($handler, new Response());
 
         /** @var ResponseInterface $response */
         $response = $middleware(
-            (new ServerRequest())->withAttribute('next', true),
-            new Response(),
-            new NotFoundMiddleware()
+          (new ServerRequest())->withAttribute('next', true),
+          new Response(),
+          new NotFoundMiddleware()
         );
 
         self::assertEquals(404, $response->getStatusCode());
@@ -56,43 +57,43 @@ class MiddlewareResolverTest extends TestCase
     public function getValidHandlers(): array
     {
         return [
-            'Callable Callback' => [function (ServerRequestInterface $request, callable $next) {
-                if ($request->getAttribute('next')) {
-                    return $next($request);
-                }
-                return (new HtmlResponse(''))
-                    ->withHeader('X-Header', $request->getAttribute('attribute'));
-            }],
-            'Callable Class' => [CallableMiddleware::class],
-            'Callable Object' => [new CallableMiddleware()],
-            'DoublePass Callback' => [function (ServerRequestInterface $request, ResponseInterface $response, callable $next) {
-                if ($request->getAttribute('next')) {
-                    return $next($request);
-                }
-                return $response
-                    ->withHeader('X-Header', $request->getAttribute('attribute'));
-            }],
-            'DoublePass Class' => [DoublePassMiddleware::class],
-            'DoublePass Object' => [new DoublePassMiddleware()],
-            'Interop Class' => [InteropMiddleware::class],
-            'Interop Object' => [new InteropMiddleware()],
+          'Callable Callback' => [function (ServerRequestInterface $request, callable $next) {
+              if ($request->getAttribute('next')) {
+                  return $next($request);
+              }
+              return (new HtmlResponse(''))
+                ->withHeader('X-Header', $request->getAttribute('attribute'));
+          }],
+          'Callable Class' => [CallableMiddleware::class],
+          'Callable Object' => [new CallableMiddleware()],
+          'DoublePass Callback' => [function (ServerRequestInterface $request, ResponseInterface $response, callable $next) {
+              if ($request->getAttribute('next')) {
+                  return $next($request);
+              }
+              return $response
+                ->withHeader('X-Header', $request->getAttribute('attribute'));
+          }],
+          'DoublePass Class' => [DoublePassMiddleware::class],
+          'DoublePass Object' => [new DoublePassMiddleware()],
+          'Interop Class' => [InteropMiddleware::class],
+          'Interop Object' => [new InteropMiddleware()],
         ];
     }
 
     public function testArray(): void
     {
-        $resolver = new MiddlewareResolver();
+        $resolver = new MiddlewareResolver(new DummyContainer());
 
         $middleware = $resolver->resolve([
-            new DummyMiddleware(),
-            new CallableMiddleware()
+          new DummyMiddleware(),
+          new CallableMiddleware()
         ], new Response());
 
         /** @var ResponseInterface $response */
         $response = $middleware(
-            (new ServerRequest())->withAttribute('attribute', $value = 'value'),
-            new Response(),
-            new NotFoundMiddleware()
+          (new ServerRequest())->withAttribute('attribute', $value = 'value'),
+          new Response(),
+          new NotFoundMiddleware()
         );
 
         self::assertEquals(['dummy'], $response->getHeader('X-Dummy'));
@@ -108,7 +109,7 @@ class CallableMiddleware
             return $next($request);
         }
         return (new HtmlResponse(''))
-            ->withHeader('X-Header', $request->getAttribute('attribute'));
+          ->withHeader('X-Header', $request->getAttribute('attribute'));
     }
 }
 
@@ -120,7 +121,7 @@ class DoublePassMiddleware
             return $next($request);
         }
         return $response
-            ->withHeader('X-Header', $request->getAttribute('attribute'));
+          ->withHeader('X-Header', $request->getAttribute('attribute'));
     }
 }
 
@@ -132,7 +133,7 @@ class InteropMiddleware implements MiddlewareInterface
             return $handler->handle($request);
         }
         return (new HtmlResponse(''))
-            ->withHeader('X-Header', $request->getAttribute('attribute'));
+          ->withHeader('X-Header', $request->getAttribute('attribute'));
     }
 }
 
@@ -149,6 +150,6 @@ class DummyMiddleware
     public function __invoke(ServerRequestInterface $request, callable $next): ResponseInterface
     {
         return $next($request)
-            ->withHeader('X-Dummy', 'dummy');
+          ->withHeader('X-Dummy', 'dummy');
     }
 }
