@@ -6,6 +6,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/app/about.php" afterPath="$PROJECT_DIR$/templates/app/about.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/app/cabinet.php" afterPath="$PROJECT_DIR$/templates/app/cabinet.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/app/hello.php" afterPath="$PROJECT_DIR$/templates/app/hello.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/layout/columns.php" afterPath="$PROJECT_DIR$/templates/layout/columns.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/layout/default.php" afterPath="$PROJECT_DIR$/templates/layout/default.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,8 +22,8 @@
       <file leaf-file-name="PhpRenderer.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Framework/Template/PhpRenderer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="7" column="20" lean-forward="false" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+            <state relative-caret-position="989">
+              <caret line="52" column="1" lean-forward="false" selection-start-line="52" selection-start-column="1" selection-end-line="52" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -31,8 +32,8 @@
       <file leaf-file-name="columns.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/layout/columns.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="6" column="41" lean-forward="true" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+            <state relative-caret-position="340">
+              <caret line="17" column="26" lean-forward="false" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
               <folding>
                 <element signature="e#6#59#0#PHP" expanded="true" />
               </folding>
@@ -40,27 +41,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="default.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="default.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/layout/default.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="10" column="41" lean-forward="false" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+            <state relative-caret-position="749">
+              <caret line="63" column="7" lean-forward="false" selection-start-line="63" selection-start-column="7" selection-end-line="63" selection-end-column="7" />
               <folding>
                 <element signature="e#6#59#0#PHP" expanded="true" />
-                <marker date="1584453349888" expanded="true" signature="478:710" ph="..." />
-                <marker date="1584453349888" expanded="true" signature="737:1799" ph="..." />
-                <marker date="1584453349888" expanded="true" signature="765:1711" ph="..." />
-                <marker date="1584453349888" expanded="true" signature="840:1701" ph="..." />
-                <marker date="1584453349888" expanded="true" signature="872:1690" ph="..." />
-                <marker date="1584453349888" expanded="true" signature="912:1328" ph="..." />
-                <marker date="1584453349888" expanded="true" signature="1027:1206" ph="..." />
-                <marker date="1584453349888" expanded="true" signature="1256:1309" ph="..." />
-                <marker date="1584453349888" expanded="true" signature="1379:1675" ph="..." />
-                <marker date="1584453349888" expanded="true" signature="1436:1656" ph="..." />
-                <marker date="1584453349888" expanded="true" signature="1738:1799" ph="..." />
-                <marker date="1584453349888" expanded="true" signature="1767:1799" ph="..." />
-                <marker date="1584453349888" expanded="true" signature="1888:1959" ph="..." />
-                <marker date="1584453349888" expanded="true" signature="1916:1959" ph="..." />
+                <element signature="e#1959#1965#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -78,11 +66,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="about.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="about.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/app/about.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="460">
+              <caret line="23" column="26" lean-forward="false" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
               <folding>
                 <element signature="e#6#59#0#PHP" expanded="true" />
               </folding>
@@ -93,8 +81,8 @@
       <file leaf-file-name="cabinet.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/app/cabinet.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="9" column="68" lean-forward="false" selection-start-line="9" selection-start-column="68" selection-end-line="9" selection-end-column="68" />
+            <state relative-caret-position="580">
+              <caret line="29" column="27" lean-forward="false" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
               <folding>
                 <element signature="e#6#80#0#PHP" expanded="true" />
               </folding>
@@ -105,8 +93,8 @@
       <file leaf-file-name="hello.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/app/hello.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="8" column="66" lean-forward="false" selection-start-line="8" selection-start-column="66" selection-end-line="8" selection-end-column="66" />
+            <state relative-caret-position="420">
+              <caret line="21" column="26" lean-forward="false" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
               <folding>
                 <element signature="e#6#59#0#PHP" expanded="true" />
               </folding>
@@ -158,11 +146,11 @@
         <option value="$PROJECT_DIR$/src/App/Http/Action/AboutAction.php" />
         <option value="$PROJECT_DIR$/src/App/Http/Action/CabinetAction.php" />
         <option value="$PROJECT_DIR$/src/App/Http/Action/HelloAction.php" />
-        <option value="$PROJECT_DIR$/templates/layout/columns.php" />
         <option value="$PROJECT_DIR$/src/Framework/Template/PhpRenderer.php" />
         <option value="$PROJECT_DIR$/templates/app/about.php" />
         <option value="$PROJECT_DIR$/templates/app/cabinet.php" />
         <option value="$PROJECT_DIR$/templates/app/hello.php" />
+        <option value="$PROJECT_DIR$/templates/layout/columns.php" />
         <option value="$PROJECT_DIR$/templates/layout/default.php" />
       </list>
     </option>
@@ -448,12 +436,12 @@
       <workItem from="1584267033754" duration="4017000" />
       <workItem from="1584353468700" duration="8763000" />
       <workItem from="1584416518418" duration="7565000" />
-      <workItem from="1584440757789" duration="8928000" />
+      <workItem from="1584440757789" duration="9100000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42489000" />
+    <option name="totallyTimeSpent" value="42661000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -817,28 +805,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/layout/columns.php">
+    <entry file="file://$PROJECT_DIR$/src/Framework/Template/PhpRenderer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="41" lean-forward="true" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+        <state relative-caret-position="989">
+          <caret line="52" column="1" lean-forward="false" selection-start-line="52" selection-start-column="1" selection-end-line="52" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/app/about.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="23" column="26" lean-forward="false" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
           <folding>
             <element signature="e#6#59#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Framework/Template/PhpRenderer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="20" lean-forward="false" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/app/cabinet.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="68" lean-forward="false" selection-start-line="9" selection-start-column="68" selection-end-line="9" selection-end-column="68" />
+        <state relative-caret-position="580">
+          <caret line="29" column="27" lean-forward="false" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
           <folding>
             <element signature="e#6#80#0#PHP" expanded="true" />
           </folding>
@@ -847,8 +835,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/app/hello.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="66" lean-forward="false" selection-start-line="8" selection-start-column="66" selection-end-line="8" selection-end-column="66" />
+        <state relative-caret-position="420">
+          <caret line="21" column="26" lean-forward="false" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+          <folding>
+            <element signature="e#6#59#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/layout/columns.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" column="26" lean-forward="false" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
           <folding>
             <element signature="e#6#59#0#PHP" expanded="true" />
           </folding>
@@ -857,34 +855,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/layout/default.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="41" lean-forward="false" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+        <state relative-caret-position="749">
+          <caret line="63" column="7" lean-forward="false" selection-start-line="63" selection-start-column="7" selection-end-line="63" selection-end-column="7" />
           <folding>
             <element signature="e#6#59#0#PHP" expanded="true" />
-            <marker date="1584453349888" expanded="true" signature="478:710" ph="..." />
-            <marker date="1584453349888" expanded="true" signature="737:1799" ph="..." />
-            <marker date="1584453349888" expanded="true" signature="765:1711" ph="..." />
-            <marker date="1584453349888" expanded="true" signature="840:1701" ph="..." />
-            <marker date="1584453349888" expanded="true" signature="872:1690" ph="..." />
-            <marker date="1584453349888" expanded="true" signature="912:1328" ph="..." />
-            <marker date="1584453349888" expanded="true" signature="1027:1206" ph="..." />
-            <marker date="1584453349888" expanded="true" signature="1256:1309" ph="..." />
-            <marker date="1584453349888" expanded="true" signature="1379:1675" ph="..." />
-            <marker date="1584453349888" expanded="true" signature="1436:1656" ph="..." />
-            <marker date="1584453349888" expanded="true" signature="1738:1799" ph="..." />
-            <marker date="1584453349888" expanded="true" signature="1767:1799" ph="..." />
-            <marker date="1584453349888" expanded="true" signature="1888:1959" ph="..." />
-            <marker date="1584453349888" expanded="true" signature="1916:1959" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/app/about.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <element signature="e#6#59#0#PHP" expanded="true" />
+            <element signature="e#1959#1965#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
