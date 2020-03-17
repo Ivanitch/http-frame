@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96020563-f763-4915-8465-5003bbd454ac" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App/Http/Action/HelloAction.php" afterPath="$PROJECT_DIR$/src/App/Http/Action/HelloAction.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Framework/Template/PhpRenderer.php" afterPath="$PROJECT_DIR$/src/Framework/Template/PhpRenderer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/app/about.php" afterPath="$PROJECT_DIR$/templates/app/about.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/app/cabinet.php" afterPath="$PROJECT_DIR$/templates/app/cabinet.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/app/hello.php" afterPath="$PROJECT_DIR$/templates/app/hello.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/layout/columns.php" afterPath="$PROJECT_DIR$/templates/layout/columns.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,18 +19,42 @@
       <file leaf-file-name="PhpRenderer.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Framework/Template/PhpRenderer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="700">
-              <caret line="35" column="30" lean-forward="true" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="30" />
+            <state relative-caret-position="469">
+              <caret line="43" column="39" lean-forward="true" selection-start-line="43" selection-start-column="39" selection-end-line="43" selection-end-column="39" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HelloAction.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="columns.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/layout/columns.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="6" column="41" lean-forward="true" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+              <folding>
+                <element signature="e#6#59#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="default.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/layout/default.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <folding>
+                <element signature="e#6#59#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HelloAction.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App/Http/Action/HelloAction.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="18" column="70" lean-forward="true" selection-start-line="18" selection-start-column="70" selection-end-line="18" selection-end-column="70" />
+            <state relative-caret-position="100">
+              <caret line="5" column="41" lean-forward="true" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
               <folding>
                 <element signature="e#35#75#0#PHP" expanded="true" />
               </folding>
@@ -44,7 +66,7 @@
         <entry file="file://$PROJECT_DIR$/templates/app/about.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="6" column="20" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="20" />
+              <caret line="6" column="41" lean-forward="true" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
               <folding>
                 <element signature="e#6#59#0#PHP" expanded="true" />
               </folding>
@@ -52,11 +74,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cabinet.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="cabinet.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/app/cabinet.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="7" column="37" lean-forward="false" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+            <state relative-caret-position="300">
+              <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="26" />
               <folding>
                 <element signature="e#6#80#0#PHP" expanded="true" />
               </folding>
@@ -120,12 +142,12 @@
         <option value="$PROJECT_DIR$/src/App/Http/Action/AboutAction.php" />
         <option value="$PROJECT_DIR$/src/App/Http/Action/CabinetAction.php" />
         <option value="$PROJECT_DIR$/templates/layout/default.php" />
-        <option value="$PROJECT_DIR$/templates/layout/columns.php" />
-        <option value="$PROJECT_DIR$/src/Framework/Template/PhpRenderer.php" />
         <option value="$PROJECT_DIR$/templates/app/about.php" />
-        <option value="$PROJECT_DIR$/templates/app/cabinet.php" />
         <option value="$PROJECT_DIR$/templates/app/hello.php" />
         <option value="$PROJECT_DIR$/src/App/Http/Action/HelloAction.php" />
+        <option value="$PROJECT_DIR$/src/Framework/Template/PhpRenderer.php" />
+        <option value="$PROJECT_DIR$/templates/app/cabinet.php" />
+        <option value="$PROJECT_DIR$/templates/layout/columns.php" />
       </list>
     </option>
   </component>
@@ -182,6 +204,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -406,12 +432,12 @@
       <workItem from="1584267033754" duration="4017000" />
       <workItem from="1584353468700" duration="8763000" />
       <workItem from="1584416518418" duration="7565000" />
-      <workItem from="1584440757789" duration="6794000" />
+      <workItem from="1584440757789" duration="7854000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40355000" />
+    <option name="totallyTimeSpent" value="41415000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -755,61 +781,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/layout/default.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="15" lean-forward="true" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
-          <folding>
-            <element signature="e#6#59#0#PHP" expanded="true" />
-            <element signature="e#1852#1858#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/layout/columns.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="42" lean-forward="true" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
-          <folding>
-            <element signature="e#6#59#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/App/Http/Action/HelloActionTest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
           <folding>
             <element signature="e#41#73#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Framework/Template/PhpRenderer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="35" column="30" lean-forward="true" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/app/about.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="20" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="20" />
-          <folding>
-            <element signature="e#6#59#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/app/cabinet.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="37" lean-forward="false" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
-          <folding>
-            <element signature="e#6#80#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -826,10 +803,58 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App/Http/Action/HelloAction.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="18" column="70" lean-forward="true" selection-start-line="18" selection-start-column="70" selection-end-line="18" selection-end-column="70" />
+        <state relative-caret-position="100">
+          <caret line="5" column="41" lean-forward="true" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
           <folding>
             <element signature="e#35#75#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Framework/Template/PhpRenderer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="43" column="39" lean-forward="true" selection-start-line="43" selection-start-column="39" selection-end-line="43" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/layout/default.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#59#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/layout/columns.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="41" lean-forward="true" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+          <folding>
+            <element signature="e#6#59#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/app/about.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="41" lean-forward="true" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+          <folding>
+            <element signature="e#6#59#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/app/cabinet.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="26" />
+          <folding>
+            <element signature="e#6#80#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
