@@ -4,7 +4,7 @@
  */
 ?>
 
-<?php $this->extend = 'layout/default'; ?>
+<?php $this->extend('layout/default'); ?>
 
 <?php $this->params['title'] = 'Hello'; ?>
 
@@ -14,8 +14,3 @@
         Congratulations! You have successfully created your application.
     </p>
 </div>
-
-<?
-var_dump($pipe);
-
-?>
