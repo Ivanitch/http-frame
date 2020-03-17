@@ -8,6 +8,8 @@ class TemplateRenderer
 
     public function __construct($path)
     {
+        if (!is_dir($path))
+            throw new \RuntimeException('Path not found.');
         $this->path = $path;
     }
 
