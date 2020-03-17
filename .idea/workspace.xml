@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96020563-f763-4915-8465-5003bbd454ac" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Framework/Template/PhpRenderer.php" afterPath="$PROJECT_DIR$/src/Framework/Template/PhpRenderer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/app/about.php" afterPath="$PROJECT_DIR$/templates/app/about.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/app/cabinet.php" afterPath="$PROJECT_DIR$/templates/app/cabinet.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/layout/columns.php" afterPath="$PROJECT_DIR$/templates/layout/columns.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/layout/default.php" afterPath="$PROJECT_DIR$/templates/layout/default.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -38,11 +38,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="default.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="default.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/layout/default.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="580">
+              <caret line="47" column="48" lean-forward="false" selection-start-line="47" selection-start-column="48" selection-end-line="47" selection-end-column="48" />
               <folding>
                 <element signature="e#6#59#0#PHP" expanded="true" />
               </folding>
@@ -65,8 +65,8 @@
       <file leaf-file-name="about.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/app/about.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="6" column="41" lean-forward="true" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+            <state relative-caret-position="340">
+              <caret line="17" column="23" lean-forward="false" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
               <folding>
                 <element signature="e#6#59#0#PHP" expanded="true" />
               </folding>
@@ -74,11 +74,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cabinet.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="cabinet.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/app/cabinet.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="26" />
+            <state relative-caret-position="540">
+              <caret line="27" column="79" lean-forward="false" selection-start-line="27" selection-start-column="79" selection-end-line="27" selection-end-column="79" />
               <folding>
                 <element signature="e#6#80#0#PHP" expanded="true" />
               </folding>
@@ -141,13 +141,13 @@
         <option value="$PROJECT_DIR$/tests/App/Http/Action/HelloActionTest.php" />
         <option value="$PROJECT_DIR$/src/App/Http/Action/AboutAction.php" />
         <option value="$PROJECT_DIR$/src/App/Http/Action/CabinetAction.php" />
-        <option value="$PROJECT_DIR$/templates/layout/default.php" />
-        <option value="$PROJECT_DIR$/templates/app/about.php" />
         <option value="$PROJECT_DIR$/templates/app/hello.php" />
         <option value="$PROJECT_DIR$/src/App/Http/Action/HelloAction.php" />
         <option value="$PROJECT_DIR$/src/Framework/Template/PhpRenderer.php" />
-        <option value="$PROJECT_DIR$/templates/app/cabinet.php" />
         <option value="$PROJECT_DIR$/templates/layout/columns.php" />
+        <option value="$PROJECT_DIR$/templates/app/about.php" />
+        <option value="$PROJECT_DIR$/templates/app/cabinet.php" />
+        <option value="$PROJECT_DIR$/templates/layout/default.php" />
       </list>
     </option>
   </component>
@@ -432,12 +432,12 @@
       <workItem from="1584267033754" duration="4017000" />
       <workItem from="1584353468700" duration="8763000" />
       <workItem from="1584416518418" duration="7565000" />
-      <workItem from="1584440757789" duration="7854000" />
+      <workItem from="1584440757789" duration="8493000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41415000" />
+    <option name="totallyTimeSpent" value="42054000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -819,16 +819,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/layout/default.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <element signature="e#6#59#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/layout/columns.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -841,8 +831,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/app/about.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="41" lean-forward="true" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+        <state relative-caret-position="340">
+          <caret line="17" column="23" lean-forward="false" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
           <folding>
             <element signature="e#6#59#0#PHP" expanded="true" />
           </folding>
@@ -851,10 +841,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/app/cabinet.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="26" />
+        <state relative-caret-position="540">
+          <caret line="27" column="79" lean-forward="false" selection-start-line="27" selection-start-column="79" selection-end-line="27" selection-end-column="79" />
           <folding>
             <element signature="e#6#80#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/layout/default.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="47" column="48" lean-forward="false" selection-start-line="47" selection-start-column="48" selection-end-line="47" selection-end-column="48" />
+          <folding>
+            <element signature="e#6#59#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
