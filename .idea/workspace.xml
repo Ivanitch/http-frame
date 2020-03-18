@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96020563-f763-4915-8465-5003bbd454ac" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Framework/Template/PhpRenderer.php" afterPath="$PROJECT_DIR$/src/Framework/Template/PhpRenderer.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/layout/columns.php" afterPath="$PROJECT_DIR$/templates/layout/columns.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,18 +18,8 @@
       <file leaf-file-name="PhpRenderer.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Framework/Template/PhpRenderer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="36" column="44" lean-forward="true" selection-start-line="36" selection-start-column="44" selection-end-line="36" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cabinet.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/app/cabinet.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="2" column="45" lean-forward="true" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
+            <state relative-caret-position="2100">
+              <caret line="84" column="1" lean-forward="false" selection-start-line="84" selection-start-column="1" selection-end-line="84" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -37,18 +28,8 @@
       <file leaf-file-name="columns.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/layout/columns.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="2" column="41" lean-forward="true" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="about.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/app/about.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="23" column="26" lean-forward="false" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+            <state relative-caret-position="150">
+              <caret line="6" column="41" lean-forward="true" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
               <folding>
                 <element signature="e#6#59#0#PHP" expanded="true" />
               </folding>
@@ -358,12 +339,12 @@
       <workItem from="1584353468700" duration="8763000" />
       <workItem from="1584416518418" duration="7565000" />
       <workItem from="1584440757789" duration="9100000" />
-      <workItem from="1584499096501" duration="2968000" />
+      <workItem from="1584499096501" duration="3484000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45629000" />
+    <option name="totallyTimeSpent" value="46145000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
@@ -741,17 +722,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Framework/Template/PhpRenderer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="36" column="44" lean-forward="true" selection-start-line="36" selection-start-column="44" selection-end-line="36" selection-end-column="44" />
+        <state relative-caret-position="2100">
+          <caret line="84" column="1" lean-forward="false" selection-start-line="84" selection-start-column="1" selection-end-line="84" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/layout/columns.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="41" lean-forward="true" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
-          <folding />
+        <state relative-caret-position="150">
+          <caret line="6" column="41" lean-forward="true" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+          <folding>
+            <element signature="e#6#59#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
