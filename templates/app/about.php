@@ -1,6 +1,6 @@
 <?php
 /**
- * @var \Framework\Template\PhpRenderer $this
+ * @var \Framework\Template\Php\PhpRenderer $this
  */
 ?>
 
@@ -14,7 +14,7 @@
 
 <?php $this->beginBlock('breadcrumbs') ?>
     <ul class="breadcrumb">
-        <li><a href="<?= $this->encode($this->path('about')) ?>">About</a></li>
+        <li><a href="<?= $this->encode($this->path('home')) ?>">Home</a></li>
         <li class="active">About</li>
     </ul>
 <?php $this->endBlock() ?>
