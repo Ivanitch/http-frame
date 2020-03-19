@@ -1,30 +1,26 @@
 {% extends 'layout/default.html.twig' %}
 
-{% block title %}Blog{% endblock %}
+{% block title %}{{ post.title }}{% endblock %}
 
 {% block meta %}
-    <meta name="description" content="Blog Page description" />
+    <meta name="description" content="{{ post.title }}" />
 {% endblock %}
 
 {% block breadcrumbs %}
     <ul class="breadcrumb">
         <li><a href="{{ path('home') }}">Home</a></li>
-        <li class="active">Blog</li>
+        <li><a href="{{ path('blog') }}">Blog</a></li>
+        <li class="active">{{ post.title }}</li>
     </ul>
 {% endblock %}
 
 {% block content %}
-    <h1>Blog</h1>
+    <h1>{{ post.title }}</h1>
 
-    {% for post in posts %}
-
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <span class="pull-right">{{ post.date|date('Y-m-d') }}</span>
-                <a href="{{ path('blog_show', {'id': post.id}) }}">{{ post.title }}</a>
-            </div>
-            <div class="panel-body">{{ post.content|nl2br }}</div>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            {{ post.date|date('Y-m-d') }}
         </div>
-
-    {% endfor %}
+        <div class="panel-body">{{ post.content|nl2br }}</div>
+    </div>
 {% endblock %}
