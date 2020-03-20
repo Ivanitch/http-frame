@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96020563-f763-4915-8465-5003bbd454ac" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/autoload/auth.global.php" afterPath="$PROJECT_DIR$/config/autoload/auth.global.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App/Http/Action/AboutAction.php" afterPath="$PROJECT_DIR$/src/App/Http/Action/AboutAction.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App/Http/Action/Blog/IndexAction.php" afterPath="$PROJECT_DIR$/src/App/Http/Action/Blog/IndexAction.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App/Http/Action/Blog/ShowAction.php" afterPath="$PROJECT_DIR$/src/App/Http/Action/Blog/ShowAction.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App/Http/Action/CabinetAction.php" afterPath="$PROJECT_DIR$/src/App/Http/Action/CabinetAction.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App/Http/Action/HelloAction.php" afterPath="$PROJECT_DIR$/src/App/Http/Action/HelloAction.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App/Http/Middleware/BasicAuthMiddleware.php" afterPath="$PROJECT_DIR$/src/App/Http/Middleware/BasicAuthMiddleware.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App/Http/Middleware/CredentialsMiddleware.php" afterPath="$PROJECT_DIR$/src/App/Http/Middleware/CredentialsMiddleware.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App/Http/Middleware/ErrorHandlerMiddleware.php" afterPath="$PROJECT_DIR$/src/App/Http/Middleware/ErrorHandlerMiddleware.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App/Http/Middleware/ProfilerMiddleware.php" afterPath="$PROJECT_DIR$/src/App/Http/Middleware/ProfilerMiddleware.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,20 +13,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ProfilerMiddleware.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/App/Http/Middleware/ProfilerMiddleware.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="19" column="1" lean-forward="false" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-              <folding>
-                <element signature="e#39#78#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -92,8 +70,8 @@
         <option value="$PROJECT_DIR$/src/App/Http/Action/HelloAction.php" />
         <option value="$PROJECT_DIR$/src/App/Http/Middleware/BasicAuthMiddleware.php" />
         <option value="$PROJECT_DIR$/src/App/Http/Middleware/CredentialsMiddleware.php" />
-        <option value="$PROJECT_DIR$/src/App/Http/Middleware/ErrorHandlerMiddleware.php" />
         <option value="$PROJECT_DIR$/src/App/Http/Middleware/ProfilerMiddleware.php" />
+        <option value="$PROJECT_DIR$/src/App/Http/Middleware/ErrorHandlerMiddleware.php" />
       </list>
     </option>
   </component>
@@ -470,18 +448,17 @@
       <workItem from="1584584694468" duration="709000" />
       <workItem from="1584590891215" duration="4521000" />
       <workItem from="1584614784977" duration="8223000" />
-      <workItem from="1584676199871" duration="4032000" />
+      <workItem from="1584676199871" duration="4139000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72671000" />
+    <option name="totallyTimeSpent" value="72778000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1705757" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1705757" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -865,21 +842,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/Http/Middleware/ErrorHandlerMiddleware.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="725">
-          <caret line="34" column="1" lean-forward="false" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/App/Http/Middleware/ProfilerMiddleware.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="19" column="1" lean-forward="false" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        <state relative-caret-position="175">
+          <caret line="7" column="44" lean-forward="true" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
           <folding>
             <element signature="e#39#78#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/Http/Middleware/ErrorHandlerMiddleware.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="783">
+          <caret line="43" column="1" lean-forward="false" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
