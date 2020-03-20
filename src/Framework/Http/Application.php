@@ -7,29 +7,33 @@ use Framework\Http\Router\RouteData;
 use Framework\Http\Router\Router;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
+use Psr\Http\Server\MiddlewareInterface;
+use Psr\Http\Server\RequestHandlerInterface;
+use Zend\Stratigility\Middleware\PathMiddlewareDecorator;
 use Zend\Stratigility\MiddlewarePipe;
 
-class Application extends MiddlewarePipe
+class Application implements MiddlewareInterface, RequestHandlerInterface
 {
     private $resolver;
     private $router;
     private $default;
+    private $pipeline;
 
-    public function __construct(MiddlewareResolver $resolver, Router $router, callable $default, ResponseInterface $responsePrototype)
+    public function __construct(MiddlewareResolver $resolver, Router $router, RequestHandlerInterface $default)
     {
-        parent::__construct();
         $this->resolver = $resolver;
         $this->router = $router;
-        $this->setResponsePrototype($responsePrototype);
+        $this->pipeline = new MiddlewarePipe();
         $this->default = $default;
     }
 
-    public function pipe($path, $middleware = null): MiddlewarePipe
+    public function pipe($path, $middleware = null): void
     {
         if ($middleware === null) {
-            return parent::pipe($this->resolver->resolve($path, $this->responsePrototype));
+            $this->pipeline->pipe($this->resolver->resolve($path));
+        } else {
+            $this->pipeline->pipe(new PathMiddlewareDecorator($path, $this->resolver->resolve($middleware)));
         }
-        return parent::pipe($path, $this->resolver->resolve($middleware, $this->responsePrototype));
     }
 
     private function route($name, $path, $handler, array $methods, array $options = []): void
@@ -67,8 +71,13 @@ class Application extends MiddlewarePipe
         $this->route($name, $path, $handler, ['DELETE'], $options);
     }
 
-    public function run(ServerRequestInterface $request, ResponseInterface $response): ResponseInterface
+    public function handle(ServerRequestInterface $request): ResponseInterface
     {
-        return $this($request, $response, $this->default);
+        return $this->pipeline->process($request, $this->default);
+    }
+
+    public function process(ServerRequestInterface $request, RequestHandlerInterface $handler): ResponseInterface
+    {
+        return $this->pipeline->process($request, $handler);
     }
 }

@@ -6,51 +6,51 @@ use Framework\Template\Twig\TwigRenderer;
 use Psr\Container\ContainerInterface;
 
 return [
-  'dependencies' => [
-    'factories' => [
-      TemplateRenderer::class => function (ContainerInterface $container) {
-          return new TwigRenderer(
-            $container->get(Twig\Environment::class),
-            $container->get('config')['templates']['extension']
-          );
-      },
-      Twig\Environment::class => function(ContainerInterface $container)
-      {
-          $debug = $container->get('config')['debug'];
-          $config = $container->get('config')['twig'];
+    'dependencies' => [
+        'factories' => [
+            TemplateRenderer::class => function (ContainerInterface $container) {
+                return new TwigRenderer(
+                    $container->get(Twig\Environment::class),
+                    $container->get('config')['templates']['extension']
+                );
+            },
+            Twig\Environment::class => function(ContainerInterface $container)
+            {
+                $debug = $container->get('config')['debug'];
+                $config = $container->get('config')['twig'];
 
-          $loader = new Twig\Loader\FilesystemLoader();
-          $loader->addPath($config['template_dir']);
+                $loader = new Twig\Loader\FilesystemLoader();
+                $loader->addPath($config['template_dir']);
 
-          $environment = new Twig\Environment($loader, [
-            'cache' => $debug ? false : $config['cache_dir'],
-            'debug' => $debug,
-            'strict_variables' => $debug,
-            'auto_reload' => $debug,
-          ]);
+                $environment = new Twig\Environment($loader, [
+                    'cache' => $debug ? false : $config['cache_dir'],
+                    'debug' => $debug,
+                    'strict_variables' => $debug,
+                    'auto_reload' => $debug,
+                ]);
 
-          if ($debug) {
-              $environment->addExtension(new Twig\Extension\DebugExtension());
-          }
+                if ($debug) {
+                    $environment->addExtension(new Twig\Extension\DebugExtension());
+                }
 
-          $environment->addExtension($container->get(RouteExtension::class));
+                $environment->addExtension($container->get(RouteExtension::class));
 
-          foreach ($config['extensions'] as $extension) {
-              $environment->addExtension($container->get($extension));
-          }
+                foreach ($config['extensions'] as $extension) {
+                    $environment->addExtension($container->get($extension));
+                }
 
-          return $environment;
-      },
+                return $environment;
+            },
+        ],
     ],
-  ],
 
-  'templates' => [
-    'extension' => '.html.twig',
-  ],
+    'templates' => [
+        'extension' => '.html.twig',
+    ],
 
-  'twig' => [
-    'template_dir' => 'templates',
-    'cache_dir' => 'var/cache/twig',
-    'extensions' => [],
-  ],
+    'twig' => [
+        'template_dir' => 'templates',
+        'cache_dir' => 'var/cache/twig',
+        'extensions' => [],
+    ],
 ];

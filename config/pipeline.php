@@ -12,3 +12,4 @@ $app->pipe(Framework\Http\Middleware\RouteMiddleware::class);
 $app->pipe('cabinet', Middleware\BasicAuthMiddleware::class);
 
 $app->pipe(Framework\Http\Middleware\DispatchMiddleware::class);
+
