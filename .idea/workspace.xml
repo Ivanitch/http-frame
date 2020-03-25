@@ -2,17 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96020563-f763-4915-8465-5003bbd454ac" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/App/Http/Middleware/ErrorHandler/WhoopsErrorResponseGenerator.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/App/Http/Middleware/ErrorHandler/DebugErrorResponseGenerator.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/error/error-debug.html.twig" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/www.iml" afterPath="$PROJECT_DIR$/.idea/www.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/autoload/app.global.php" afterPath="$PROJECT_DIR$/config/autoload/app.global.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/autoload/local.php" afterPath="$PROJECT_DIR$/config/autoload/local.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/.htaccess" afterPath="$PROJECT_DIR$/public/.htaccess" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App/Http/Action/AboutAction.php" afterPath="$PROJECT_DIR$/src/App/Http/Action/AboutAction.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/pipeline.php" afterPath="$PROJECT_DIR$/config/pipeline.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/App/Http/Middleware/ErrorHandler/ErrorHandlerMiddleware.php" afterPath="$PROJECT_DIR$/src/Framework/Http/Middleware/ErrorHandler/ErrorHandlerMiddleware.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/App/Http/Middleware/ErrorHandler/ErrorResponseGenerator.php" afterPath="$PROJECT_DIR$/src/Framework/Http/Middleware/ErrorHandler/ErrorResponseGenerator.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/App/Http/Middleware/ErrorHandler/PrettyErrorResponseGenerator.php" afterPath="$PROJECT_DIR$/src/Infrastructure/Framework/Http/Middleware/ErrorHandler/PrettyErrorResponseGenerator.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/App/Http/Middleware/ErrorHandler/WhoopsErrorResponseGenerator.php" afterPath="$PROJECT_DIR$/src/Framework/Http/Middleware/ErrorHandler/WhoopsErrorResponseGenerator.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,58 +21,32 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="app.global.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.global.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/autoload/app.global.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="50">
-              <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-              <folding>
-                <element signature="e#7#31#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".htaccess" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/.htaccess">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="8" column="45" lean-forward="true" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+              <caret line="2" column="24" lean-forward="true" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="local.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/autoload/local.php">
+      <file leaf-file-name="composer.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/composer.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="3" column="19" lean-forward="true" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+            <state relative-caret-position="625">
+              <caret line="25" column="54" lean-forward="false" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AboutAction.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/App/Http/Action/AboutAction.php">
+      <file leaf-file-name="pipeline.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/pipeline.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="20" column="78" lean-forward="true" selection-start-line="20" selection-start-column="78" selection-end-line="20" selection-end-column="78" />
-              <folding>
-                <element signature="e#35#75#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WhoopsErrorResponseGenerator.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/App/Http/Middleware/ErrorHandler/WhoopsErrorResponseGenerator.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="25" column="64" lean-forward="true" selection-start-line="25" selection-start-column="64" selection-end-line="25" selection-end-column="64" />
-              <folding>
-                <element signature="e#52#91#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="325">
+              <caret line="13" column="64" lean-forward="false" selection-start-line="13" selection-start-column="64" selection-end-line="13" selection-end-column="64" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -88,11 +59,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Framework/Template/PhpRenderer.php" />
-        <option value="$PROJECT_DIR$/templates/app/about.php" />
-        <option value="$PROJECT_DIR$/templates/app/blog/index.php" />
-        <option value="$PROJECT_DIR$/templates/app/blog/show.php" />
-        <option value="$PROJECT_DIR$/templates/app/cabinet.php" />
         <option value="$PROJECT_DIR$/templates/app/hello.php" />
         <option value="$PROJECT_DIR$/templates/error/404.php" />
         <option value="$PROJECT_DIR$/templates/error/error-debug.php" />
@@ -128,17 +94,22 @@
         <option value="$PROJECT_DIR$/src/App/Http/Middleware/CredentialsMiddleware.php" />
         <option value="$PROJECT_DIR$/src/App/Http/Middleware/ProfilerMiddleware.php" />
         <option value="$PROJECT_DIR$/src/App/Http/Middleware/ErrorHandlerMiddleware.php" />
-        <option value="$PROJECT_DIR$/config/pipeline.php" />
         <option value="$PROJECT_DIR$/src/App/Http/Middleware/ErrorHandler/ErrorHandlerMiddleware.php" />
         <option value="$PROJECT_DIR$/src/App/Http/Middleware/ErrorHandler/ErrorResponseGenerator.php" />
         <option value="$PROJECT_DIR$/templates/error/403.html.twig" />
         <option value="$PROJECT_DIR$/src/App/Http/Middleware/ErrorHandler/DebugErrorResponseGenerator.php" />
         <option value="$PROJECT_DIR$/src/App/Http/Middleware/ErrorHandler/PrettyErrorResponseGenerator.php" />
         <option value="$PROJECT_DIR$/src/App/Http/Middleware/ErrorHandler/WhoopsErrorResponseGenerator.php" />
-        <option value="$PROJECT_DIR$/config/autoload/app.global.php" />
         <option value="$PROJECT_DIR$/public/.htaccess" />
         <option value="$PROJECT_DIR$/config/autoload/local.php" />
         <option value="$PROJECT_DIR$/src/App/Http/Action/AboutAction.php" />
+        <option value="$PROJECT_DIR$/src/Infrastructure/Framework/Http/Middleware/ErrorHandler/PrettyErrorResponseGenerator.php" />
+        <option value="$PROJECT_DIR$/src/Framework/Http/Middleware/ErrorHandler/ErrorResponseGenerator.php" />
+        <option value="$PROJECT_DIR$/src/Framework/Http/Middleware/ErrorHandler/WhoopsErrorResponseGenerator.php" />
+        <option value="$PROJECT_DIR$/src/Framework/Http/Middleware/ErrorHandler/ErrorHandlerMiddleware.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/config/autoload/app.global.php" />
+        <option value="$PROJECT_DIR$/config/pipeline.php" />
       </list>
     </option>
   </component>
@@ -192,52 +163,6 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="error" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="config" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -272,14 +197,16 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\Server\data\htdocs\framework\www\config\autoload" />
-      <recent name="S:\Server\data\htdocs\framework\www\public" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\Server\data\htdocs\framework\www\src\Infrastructure\Framework\Http\Middleware\ErrorHandler" />
+      <recent name="G:\Server\data\htdocs\framework\www\src\Framework\Http\Middleware" />
       <recent name="G:\Server\data\htdocs\framework\www\src\Framework\Template\Php" />
       <recent name="S:\Server\data\htdocs\framework\www\templates\app" />
       <recent name="S:\Server\data\htdocs\framework\www\src\Framework\Http\Router" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\Server\data\htdocs\framework\www\config\autoload" />
+      <recent name="S:\Server\data\htdocs\framework\www\public" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -397,12 +324,12 @@
       <workItem from="1584614784977" duration="8223000" />
       <workItem from="1584676199871" duration="4318000" />
       <workItem from="1585046718777" duration="2492000" />
-      <workItem from="1585104061127" duration="3349000" />
+      <workItem from="1585104061127" duration="4285000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78798000" />
+    <option name="totallyTimeSpent" value="79734000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
@@ -572,13 +499,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="9" column="45" lean-forward="true" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/twig/twig/src/Environment.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
@@ -590,6 +510,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="12" column="47" lean-forward="false" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
+          <folding>
+            <element signature="e#7#47#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -604,6 +527,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="575">
           <caret line="26" column="34" lean-forward="false" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
+          <folding>
+            <element signature="e#34#81#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -625,6 +551,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="17" column="29" lean-forward="false" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+          <folding>
+            <element signature="e#7#51#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -692,50 +621,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/pipeline.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="64" lean-forward="false" selection-start-line="13" selection-start-column="64" selection-end-line="13" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/Http/Middleware/ErrorHandler/ErrorResponseGenerator.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="9" column="96" lean-forward="false" selection-start-line="9" selection-start-column="96" selection-end-line="9" selection-end-column="96" />
-          <folding>
-            <element signature="e#52#91#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/error/403.html.twig" />
-    <entry file="file://$PROJECT_DIR$/src/App/Http/Middleware/ErrorHandler/ErrorHandlerMiddleware.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="26" column="1" lean-forward="false" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-          <folding>
-            <element signature="e#52#91#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/App/Http/Middleware/ErrorHandler/DebugErrorResponseGenerator.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="800">
           <caret line="35" column="1" lean-forward="false" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/Http/Middleware/ErrorHandler/PrettyErrorResponseGenerator.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="875">
-          <caret line="46" column="1" lean-forward="false" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
-          <folding>
-            <element signature="e#52#92#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -773,16 +664,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/Http/Middleware/ErrorHandler/WhoopsErrorResponseGenerator.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="25" column="64" lean-forward="true" selection-start-line="25" selection-start-column="64" selection-end-line="25" selection-end-column="64" />
-          <folding>
-            <element signature="e#52#91#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/autoload/local.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -799,13 +680,65 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Framework/Http/Middleware/ErrorHandler/ErrorHandlerMiddleware.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="44" lean-forward="true" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+          <folding>
+            <element signature="e#58#97#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Framework/Http/Middleware/ErrorHandler/WhoopsErrorResponseGenerator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="49" lean-forward="true" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
+          <folding>
+            <element signature="e#58#97#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Framework/Http/Middleware/ErrorHandler/ErrorResponseGenerator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="23" lean-forward="false" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+          <folding>
+            <element signature="e#58#97#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Infrastructure/Framework/Http/Middleware/ErrorHandler/PrettyErrorResponseGenerator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="44" lean-forward="true" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="25" column="54" lean-forward="false" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/config/autoload/app.global.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
-          <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-          <folding>
-            <element signature="e#7#31#0#PHP" expanded="true" />
-          </folding>
+          <caret line="2" column="24" lean-forward="true" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/pipeline.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="64" lean-forward="false" selection-start-line="13" selection-start-column="64" selection-end-line="13" selection-end-column="64" />
+          <folding />
         </state>
       </provider>
     </entry>

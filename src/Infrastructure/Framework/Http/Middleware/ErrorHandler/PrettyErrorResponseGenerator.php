@@ -1,7 +1,8 @@
 <?php
 
-namespace App\Http\Middleware\ErrorHandler;
+namespace Infrastructure\Framework\Http\Middleware\ErrorHandler;
 
+use Framework\Http\Middleware\ErrorHandler\ErrorResponseGenerator;
 use Framework\Template\TemplateRenderer;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
@@ -26,11 +27,11 @@ class PrettyErrorResponseGenerator implements ErrorResponseGenerator
 
         $response = $this->response->withStatus($code);
         $response
-          ->getBody()
-          ->write($this->template->render($this->getView($code), [
-            'request' => $request,
-            'exception' => $e,
-          ]));
+            ->getBody()
+            ->write($this->template->render($this->getView($code), [
+                'request' => $request,
+                'exception' => $e,
+            ]));
 
         return $response;
     }
