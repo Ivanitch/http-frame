@@ -20,8 +20,6 @@ class AboutAction implements RequestHandlerInterface
 
     public function handle(ServerRequestInterface $request): ResponseInterface
     {
-        throw new \DomainException('About error!');
-
         return new HtmlResponse($this->template->render('app/about'));
     }
 }
