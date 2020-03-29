@@ -24,9 +24,9 @@ class CacheClearCommand extends Command
     protected function configure(): void
     {
         $this
-          ->setName('cache:clear')
-          ->setDescription('Clear cache')
-          ->addArgument('alias', InputArgument::OPTIONAL, 'The alias of available paths.')
+            ->setName('cache:clear')
+            ->setDescription('Clear cache')
+            ->addArgument('alias', InputArgument::OPTIONAL, 'The alias of available paths.')
         ;
     }
 

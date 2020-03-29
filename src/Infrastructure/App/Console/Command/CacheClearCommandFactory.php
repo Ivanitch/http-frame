@@ -11,8 +11,8 @@ class CacheClearCommandFactory
     public function __invoke(ContainerInterface $container)
     {
         return new CacheClearCommand(
-          $container->get('config')['console']['cachePaths'],
-          $container->get(FileManager::class)
+            $container->get('config')['console']['cachePaths'],
+            $container->get(FileManager::class)
         );
     }
 }

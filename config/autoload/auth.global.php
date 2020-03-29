@@ -10,8 +10,6 @@ return [
     ],
 
     'auth' => [
-        'users' => [
-            'admin' => 'admin'
-        ],
+        'users' => [],
     ],
 ];

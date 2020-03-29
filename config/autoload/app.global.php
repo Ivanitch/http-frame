@@ -20,7 +20,10 @@ return [
             Psr\Log\LoggerInterface::class => Infrastructure\App\Logger\LoggerFactory::class,
         ],
     ],
-
+    'auth' => [
+        'users' => [
+            'admin' => 'admin',
+        ],
+    ],
     'debug' => false,
-    //'config_cache_enabled' => true
 ];
