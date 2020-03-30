@@ -12,7 +12,7 @@ use Zend\Diactoros\Response\HtmlResponse;
 
 class IndexAction implements RequestHandlerInterface
 {
-    private const PER_PAGE = 5;
+    private const PER_PAGE = 3;
 
     private $posts;
     private $template;
