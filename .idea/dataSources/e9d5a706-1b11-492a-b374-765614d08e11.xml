@@ -6,23 +6,54 @@
       <Current>1</Current>
       <Visible>1</Visible>
     </schema>
-    <table id="3" parent="2" name="sqlite_master"/>
-    <column id="4" parent="3" name="type">
+    <table id="3" parent="2" name="migrations"/>
+    <table id="4" parent="2" name="sqlite_master"/>
+    <column id="5" parent="3" name="version">
+      <DataType>BIGINTEGER|0</DataType>
+    </column>
+    <column id="6" parent="3" name="migration_name">
+      <Position>1</Position>
+      <DataType>VARCHAR(100)|0</DataType>
+    </column>
+    <column id="7" parent="3" name="start_time">
+      <Position>2</Position>
+      <DataType>TIMESTAMP_TEXT|0</DataType>
+    </column>
+    <column id="8" parent="3" name="end_time">
+      <Position>3</Position>
+      <DataType>TIMESTAMP_TEXT|0</DataType>
+    </column>
+    <column id="9" parent="3" name="breakpoint">
+      <Position>4</Position>
+      <DataType>BOOLEAN_INTEGER|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <index id="10" parent="3" name="sqlite_autoindex_migrations_1">
+      <ColNames>version</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="11" parent="3">
+      <ColNames>version</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>sqlite_autoindex_migrations_1</UnderlyingIndexName>
+    </key>
+    <column id="12" parent="4" name="type">
       <DataType>text|0</DataType>
     </column>
-    <column id="5" parent="3" name="name">
+    <column id="13" parent="4" name="name">
       <Position>1</Position>
       <DataType>text|0</DataType>
     </column>
-    <column id="6" parent="3" name="tbl_name">
+    <column id="14" parent="4" name="tbl_name">
       <Position>2</Position>
       <DataType>text|0</DataType>
     </column>
-    <column id="7" parent="3" name="rootpage">
+    <column id="15" parent="4" name="rootpage">
       <Position>3</Position>
       <DataType>integer|0</DataType>
     </column>
-    <column id="8" parent="3" name="sql">
+    <column id="16" parent="4" name="sql">
       <Position>4</Position>
       <DataType>text|0</DataType>
     </column>
