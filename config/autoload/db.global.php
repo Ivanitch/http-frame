@@ -8,7 +8,7 @@ return [
     ],
 
     'pdo' => [
-      'dsn' => 'sqlite:db/test.sqlite',
+      'dsn' => 'sqlite:db/db.sqlite',
       'username' => '',
       'password' => '',
         'options' => [
