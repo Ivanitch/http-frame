@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96020563-f763-4915-8465-5003bbd454ac" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/fixtures/BlogFixture.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/932c39ea-05a7-4e1f-b56b-d35c5af65450/_metadata_/metadata" afterPath="$PROJECT_DIR$/.idea/dataSources/932c39ea-05a7-4e1f-b56b-d35c5af65450/_metadata_/metadata" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/932c39ea-05a7-4e1f-b56b-d35c5af65450/_metadata_/metadata.values.at" afterPath="$PROJECT_DIR$/.idea/dataSources/932c39ea-05a7-4e1f-b56b-d35c5af65450/_metadata_/metadata.values.at" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/932c39ea-05a7-4e1f-b56b-d35c5af65450.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/932c39ea-05a7-4e1f-b56b-d35c5af65450.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/autoload/console.global.php" afterPath="$PROJECT_DIR$/config/autoload/console.global.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/autoload/development.local.php.dist" afterPath="$PROJECT_DIR$/config/autoload/development.local.php.dist" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -93,7 +88,6 @@
         <option value="$PROJECT_DIR$/config/autoload/auth.global.php" />
         <option value="$PROJECT_DIR$/vendor/zendframework/zend-config-aggregator/src/ConfigAggregator.php" />
         <option value="$PROJECT_DIR$/config/config.php" />
-        <option value="$PROJECT_DIR$/config/autoload/development.local.php.dist" />
         <option value="$PROJECT_DIR$/phpcs.xml.dist" />
         <option value="$PROJECT_DIR$/src/App/Http/Action/AboutAction.php" />
         <option value="$PROJECT_DIR$/src/Framework/Console/Output.php" />
@@ -123,12 +117,13 @@
         <option value="$PROJECT_DIR$/src/Entity/Post/Post.php" />
         <option value="$PROJECT_DIR$/cli-config.php" />
         <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/config/autoload/console.global.php" />
         <option value="$PROJECT_DIR$/src/Infrastructure/App/Doctrine/Factory/DiffCommandFactory.php" />
         <option value="$PROJECT_DIR$/bin/app.php" />
         <option value="$PROJECT_DIR$/config/autoload/db.global.php" />
         <option value="$PROJECT_DIR$/db/fixtures/BlogFixture.php" />
         <option value="$PROJECT_DIR$/config/autoload/app.global.php" />
+        <option value="$PROJECT_DIR$/config/autoload/console.global.php" />
+        <option value="$PROJECT_DIR$/config/autoload/development.local.php.dist" />
       </list>
     </option>
   </component>
@@ -372,12 +367,12 @@
       <workItem from="1585407787294" duration="45000" />
       <workItem from="1585476386810" duration="6780000" />
       <workItem from="1585542071676" duration="9960000" />
-      <workItem from="1585716962313" duration="4677000" />
+      <workItem from="1585716962313" duration="4830000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="122887000" />
+    <option name="totallyTimeSpent" value="123040000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -391,7 +386,7 @@
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1616" height="876" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18701799" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18701799" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17994858" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -577,14 +572,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/autoload/development.local.php.dist">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/autoload/local.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -705,16 +692,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/autoload/console.global.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="75" lean-forward="false" selection-start-line="15" selection-start-column="75" selection-end-line="15" selection-end-column="75" />
-          <folding>
-            <marker date="1537390484000" expanded="true" signature="41:44" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bin/app.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="118">
@@ -770,6 +747,24 @@
         <state relative-caret-position="464">
           <caret line="45" column="28" lean-forward="false" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/autoload/development.local.php.dist">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/autoload/console.global.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="28" column="2" lean-forward="false" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="2" />
+          <folding>
+            <marker date="1585722315421" expanded="true" signature="41:44" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
