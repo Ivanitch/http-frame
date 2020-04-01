@@ -2,21 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96020563-f763-4915-8465-5003bbd454ac" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config/autoload/db.global.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db/fixtures/.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db/test.sqlite" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/autoload/app.global.php" afterPath="$PROJECT_DIR$/config/autoload/app.global.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/autoload/console.global.php" afterPath="$PROJECT_DIR$/config/autoload/console.global.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/autoload/development.local.php.dist" afterPath="$PROJECT_DIR$/config/autoload/development.local.php.dist" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/autoload/doctrine.global.php" afterPath="$PROJECT_DIR$/config/autoload/doctrine.global.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/autoload/local.php.dist" afterPath="$PROJECT_DIR$/config/autoload/local.php.dist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/fixtures/BlogFixture.php" afterPath="$PROJECT_DIR$/db/fixtures/BlogFixture.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App/Entity/Post/Post.php" afterPath="$PROJECT_DIR$/src/App/Entity/Post/Post.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App/Http/Action/Blog/IndexAction.php" afterPath="$PROJECT_DIR$/src/App/Http/Action/Blog/IndexAction.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App/ReadModel/PostReadRepository.php" afterPath="$PROJECT_DIR$/src/App/ReadModel/PostReadRepository.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Infrastructure/App/PDOFactory.php" afterPath="$PROJECT_DIR$/src/Infrastructure/App/PDOFactory.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Infrastructure/App/ReadModel/PostReadRepositoryFactory.php" afterPath="$PROJECT_DIR$/src/Infrastructure/App/ReadModel/PostReadRepositoryFactory.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/app/blog/index.html.twig" afterPath="$PROJECT_DIR$/templates/app/blog/index.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/layout/default.html.twig" afterPath="$PROJECT_DIR$/templates/layout/default.html.twig" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -79,11 +68,43 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="local.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="console.global.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/autoload/console.global.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="580">
+              <caret line="29" column="2" lean-forward="false" selection-start-line="29" selection-start-column="2" selection-end-line="29" selection-end-column="2" />
+              <folding>
+                <marker date="1585724653257" expanded="true" signature="41:44" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="doctrine.global.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/autoload/doctrine.global.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="35" column="44" lean-forward="true" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="default.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/layout/default.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="35" column="72" lean-forward="false" selection-start-line="35" selection-start-column="72" selection-end-line="35" selection-end-column="72" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="local.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/autoload/local.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="18" column="2" lean-forward="false" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+            <state relative-caret-position="100">
+              <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -97,7 +118,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Infrastructure/Framework/Http/Middleware/ErrorHandler/ErrorHandlerMiddlewareFactory.php" />
         <option value="$PROJECT_DIR$/src/Infrastructure/Framework/Http/Middleware/ErrorHandler/PrettyErrorResponseGeneratorFactory.php" />
         <option value="$PROJECT_DIR$/src/Infrastructure/Framework/Http/Middleware/ErrorHandler/WhoopsErrorResponseGeneratorFactory.php" />
         <option value="$PROJECT_DIR$/src/Infrastructure/Framework/Http/Middleware/ErrorHandler/WhoopsRunFactory.php" />
@@ -120,7 +140,6 @@
         <option value="$PROJECT_DIR$/src/Framework/Console/Command.php" />
         <option value="$PROJECT_DIR$/src/App/Console/Command/CacheClearCommand.php" />
         <option value="$PROJECT_DIR$/src/App/ReadModel/Views/PostView.php" />
-        <option value="$PROJECT_DIR$/config/autoload/development.local.php" />
         <option value="$PROJECT_DIR$/db/migrations/20200330093005_init.php" />
         <option value="$PROJECT_DIR$/db/seeds/PostSeeder.php" />
         <option value="$PROJECT_DIR$/public/.htaccess" />
@@ -135,7 +154,6 @@
         <option value="$PROJECT_DIR$/bin/app.php" />
         <option value="$PROJECT_DIR$/config/autoload/db.global.php" />
         <option value="$PROJECT_DIR$/db/fixtures/BlogFixture.php" />
-        <option value="$PROJECT_DIR$/config/autoload/console.global.php" />
         <option value="$PROJECT_DIR$/config/autoload/development.local.php.dist" />
         <option value="$PROJECT_DIR$/config/autoload/app.global.php" />
         <option value="$PROJECT_DIR$/src/App/Entity/Post/Post.php" />
@@ -144,9 +162,12 @@
         <option value="$PROJECT_DIR$/src/Infrastructure/App/ReadModel/PostReadRepositoryFactory.php" />
         <option value="$PROJECT_DIR$/templates/app/blog/index.html.twig" />
         <option value="$PROJECT_DIR$/templates/app/blog/show.html.twig" />
-        <option value="$PROJECT_DIR$/config/autoload/doctrine.global.php" />
         <option value="$PROJECT_DIR$/config/autoload/local.php.dist" />
         <option value="$PROJECT_DIR$/src/Infrastructure/App/PDOFactory.php" />
+        <option value="$PROJECT_DIR$/config/autoload/development.local.php" />
+        <option value="$PROJECT_DIR$/config/autoload/console.global.php" />
+        <option value="$PROJECT_DIR$/config/autoload/doctrine.global.php" />
+        <option value="$PROJECT_DIR$/templates/layout/default.html.twig" />
         <option value="$PROJECT_DIR$/config/autoload/local.php" />
       </list>
     </option>
@@ -201,7 +222,39 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="db" />
+              <option name="myItemId" value="var" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -373,12 +426,12 @@
       <workItem from="1585407787294" duration="45000" />
       <workItem from="1585476386810" duration="6780000" />
       <workItem from="1585542071676" duration="9960000" />
-      <workItem from="1585716962313" duration="6590000" />
+      <workItem from="1585716962313" duration="7425000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="124800000" />
+    <option name="totallyTimeSpent" value="125635000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -451,7 +504,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Framework/Console/Output.php" />
     <entry file="file://$PROJECT_DIR$/src/Infrastructure/App/Console/Command/CacheClearCommandFactory.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -500,7 +552,6 @@
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/d10ad192/e9d5a706-1b11-492a-b374-765614d08e11/main.posts" />
-    <entry file="file://$PROJECT_DIR$/config/autoload/development.local.php" />
     <entry file="file://$PROJECT_DIR$/db/seeds/.gitkeep" />
     <entry file="file://$PROJECT_DIR$/db/migrations/.gitkeep" />
     <entry file="file://$PROJECT_DIR$/db/migrations/20200330093005_init.php" />
@@ -662,16 +713,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/autoload/console.global.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="28" column="2" lean-forward="false" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="2" />
-          <folding>
-            <marker date="1537390484000" expanded="true" signature="41:44" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/App/Entity/Post/Post.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2439">
@@ -742,24 +783,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Infrastructure/App/PDOFactory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-          <folding>
-            <element signature="e#38#78#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/autoload/doctrine.global.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="25" column="2" lean-forward="false" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/migrations/Version20180621102843.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -781,10 +804,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Infrastructure/App/PDOFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="37" lean-forward="false" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+          <folding>
+            <element signature="e#38#78#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/autoload/development.local.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="22" column="6" lean-forward="false" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/autoload/console.global.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="29" column="2" lean-forward="false" selection-start-line="29" selection-start-column="2" selection-end-line="29" selection-end-column="2" />
+          <folding>
+            <marker date="1585724653257" expanded="true" signature="41:44" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/layout/default.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="35" column="72" lean-forward="false" selection-start-line="35" selection-start-column="72" selection-end-line="35" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/config/autoload/local.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="18" column="2" lean-forward="false" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+        <state relative-caret-position="100">
+          <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/autoload/doctrine.global.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="35" column="44" lean-forward="true" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
           <folding />
         </state>
       </provider>
