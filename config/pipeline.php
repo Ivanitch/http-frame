@@ -9,8 +9,8 @@ $app->pipe(Middleware\ResponseLoggerMiddleware::class);
 $app->pipe(Middleware\CredentialsMiddleware::class);
 $app->pipe(Middleware\ProfilerMiddleware::class);
 $app->pipe(Framework\Http\Middleware\RouteMiddleware::class);
+$app->pipe(Middleware\EmptyResponseMiddleware::class);
 
 $app->pipe('cabinet', Middleware\BasicAuthMiddleware::class);
 
 $app->pipe(Framework\Http\Middleware\DispatchMiddleware::class);
-
