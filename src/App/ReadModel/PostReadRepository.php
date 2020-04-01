@@ -17,10 +17,10 @@ class PostReadRepository
     public function countAll(): int
     {
         return $this->repository
-          ->createQueryBuilder('p')
-          ->select('COUNT(p)')
-          ->getQuery()
-          ->getSingleScalarResult();
+            ->createQueryBuilder('p')
+            ->select('COUNT(p)')
+            ->getQuery()
+            ->getSingleScalarResult();
     }
 
     /**
@@ -31,13 +31,13 @@ class PostReadRepository
     public function all(int $offset, int $limit): array
     {
         return $this->repository
-          ->createQueryBuilder('p')
-          ->select('p')
-          ->setFirstResult($offset)
-          ->setMaxResults($limit)
-          ->orderBy('p.createDate', 'DESC')
-          ->getQuery()
-          ->getResult();
+            ->createQueryBuilder('p')
+            ->select('p')
+            ->setFirstResult($offset)
+            ->setMaxResults($limit)
+            ->orderBy('p.createDate', 'DESC')
+            ->getQuery()
+            ->getResult();
     }
 
     /**

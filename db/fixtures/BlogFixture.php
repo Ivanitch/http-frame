@@ -16,24 +16,24 @@ class BlogFixture implements FixtureInterface
 
         for ($i = 0; $i < 50; $i++) {
             $post = new Post(
-              \DateTimeImmutable::createFromMutable($faker->dateTime),
-              trim($faker->sentence, '.'),
-              new Content(
-                $faker->text(500),
-                $faker->paragraphs(5, true)
-              ),
-              new Meta(
+                \DateTimeImmutable::createFromMutable($faker->dateTime),
                 trim($faker->sentence, '.'),
-                $faker->text(200)
-              )
+                new Content(
+                    $faker->text(500),
+                    $faker->paragraphs(5, true)
+                ),
+                new Meta(
+                    trim($faker->sentence, '.'),
+                    $faker->text(200)
+                )
             );
 
             $count = random_int(0, 10);
             for ($j = 0; $j < $count; $j++) {
                 $post->addComment(
-                  \DateTimeImmutable::createFromMutable($faker->dateTime),
-                  $faker->name,
-                  $faker->text(200)
+                    \DateTimeImmutable::createFromMutable($faker->dateTime),
+                    $faker->name,
+                    $faker->text(200)
                 );
             }
 

@@ -26,19 +26,19 @@ class IndexAction implements RequestHandlerInterface
     public function handle(ServerRequestInterface $request): ResponseInterface
     {
         $pager = new Pagination(
-          $this->posts->countAll(),
-          $request->getAttribute('page') ?: 1,
-          self::PER_PAGE
+            $this->posts->countAll(),
+            $request->getAttribute('page') ?: 1,
+            self::PER_PAGE
         );
 
         $posts = $this->posts->all(
-          $pager->getOffset(),
-          $pager->getLimit()
+            $pager->getOffset(),
+            $pager->getLimit()
         );
 
         return new HtmlResponse($this->template->render('app/blog/index', [
-          'posts' => $posts,
-          'pager' => $pager,
+            'posts' => $posts,
+            'pager' => $pager,
         ]));
     }
 }
