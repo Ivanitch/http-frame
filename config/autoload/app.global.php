@@ -5,11 +5,12 @@ use Framework\Http\Application;
 use Framework\Http\Middleware\ErrorHandler\ErrorHandlerMiddleware;
 use Framework\Http\Pipeline\MiddlewareResolver;
 use Framework\Http\Router\Router;
+use Laminas\ServiceManager\AbstractFactory\ReflectionBasedAbstractFactory;
 
 return [
   'dependencies' => [
     'abstract_factories' => [
-      Zend\ServiceManager\AbstractFactory\ReflectionBasedAbstractFactory::class,
+      ReflectionBasedAbstractFactory::class,
     ],
     'factories' => [
       Application::class => Infrastructure\Framework\Http\ApplicationFactory::class,

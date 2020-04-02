@@ -2,9 +2,9 @@
 
 namespace Framework\Http\Router;
 
+use Psr\Http\Message\ServerRequestInterface;
 use Framework\Http\Router\Exception\RequestNotMatchedException;
 use Framework\Http\Router\Exception\RouteNotFoundException;
-use Psr\Http\Message\ServerRequestInterface;
 
 interface Router
 {

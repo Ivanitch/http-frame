@@ -2,10 +2,10 @@
 
 namespace Infrastructure\Framework\Http\Middleware\ErrorHandler;
 
-use Framework\Http\Middleware\ErrorHandler\WhoopsErrorResponseGenerator;
 use Psr\Container\ContainerInterface;
+use Laminas\Diactoros\Response;
 use Whoops\RunInterface;
-use Zend\Diactoros\Response;
+use Framework\Http\Middleware\ErrorHandler\WhoopsErrorResponseGenerator;
 
 class WhoopsErrorResponseGeneratorFactory
 {

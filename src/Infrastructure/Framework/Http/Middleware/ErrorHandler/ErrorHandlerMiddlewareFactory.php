@@ -2,9 +2,9 @@
 
 namespace Infrastructure\Framework\Http\Middleware\ErrorHandler;
 
+use Psr\Container\ContainerInterface;
 use Framework\Http\Middleware\ErrorHandler\ErrorHandlerMiddleware;
 use Framework\Http\Middleware\ErrorHandler\ErrorResponseGenerator;
-use Psr\Container\ContainerInterface;
 
 class ErrorHandlerMiddlewareFactory
 {

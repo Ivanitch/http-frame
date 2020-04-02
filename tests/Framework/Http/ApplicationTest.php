@@ -5,14 +5,15 @@ namespace Tests\Framework\Http;
 use Framework\Http\Application;
 use Framework\Http\Pipeline\MiddlewareResolver;
 use Framework\Http\Router\Router;
+use Laminas\Diactoros\Response;
+use Laminas\Diactoros\Response\JsonResponse;
+use Laminas\Diactoros\ServerRequest;
 use PHPUnit\Framework\TestCase;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
 use Psr\Http\Server\MiddlewareInterface;
 use Psr\Http\Server\RequestHandlerInterface;
-use Zend\Diactoros\Response;
-use Zend\Diactoros\Response\JsonResponse;
-use Zend\Diactoros\ServerRequest;
+
 
 class ApplicationTest extends TestCase
 {
@@ -25,7 +26,7 @@ class ApplicationTest extends TestCase
      */
     private $router;
 
-    public function setUp()
+    public function setUp(): void
     {
         parent::setUp();
         $this->resolver = new MiddlewareResolver(new DummyContainer(), new Response());

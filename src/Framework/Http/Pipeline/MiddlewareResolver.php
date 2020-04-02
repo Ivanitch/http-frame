@@ -6,9 +6,9 @@ use Psr\Container\ContainerInterface;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Server\MiddlewareInterface;
 use Psr\Http\Server\RequestHandlerInterface;
-use Zend\Stratigility\Middleware\DoublePassMiddlewareDecorator;
-use Zend\Stratigility\Middleware\RequestHandlerMiddleware;
-use Zend\Stratigility\MiddlewarePipe;
+use Laminas\Stratigility\Middleware\DoublePassMiddlewareDecorator;
+use Laminas\Stratigility\Middleware\RequestHandlerMiddleware;
+use Laminas\Stratigility\MiddlewarePipe;
 
 class MiddlewareResolver
 {

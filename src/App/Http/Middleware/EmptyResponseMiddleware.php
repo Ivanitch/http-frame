@@ -2,13 +2,13 @@
 
 namespace App\Http\Middleware;
 
-use Framework\Template\TemplateRenderer;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
 use Psr\Http\Message\StreamInterface;
 use Psr\Http\Server\MiddlewareInterface;
 use Psr\Http\Server\RequestHandlerInterface;
-use Zend\Diactoros\Stream;
+use Laminas\Diactoros\Stream;
+use Framework\Template\TemplateRenderer;
 
 class EmptyResponseMiddleware implements MiddlewareInterface
 {

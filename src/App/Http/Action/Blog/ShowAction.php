@@ -2,13 +2,13 @@
 
 namespace App\Http\Action\Blog;
 
-use App\ReadModel\PostReadRepository;
-use Framework\Template\TemplateRenderer;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
 use Psr\Http\Server\RequestHandlerInterface;
-use Zend\Diactoros\Response\EmptyResponse;
-use Zend\Diactoros\Response\HtmlResponse;
+use Laminas\Diactoros\Response\EmptyResponse;
+use Laminas\Diactoros\Response\HtmlResponse;
+use App\ReadModel\PostReadRepository;
+use Framework\Template\TemplateRenderer;
 
 class ShowAction implements RequestHandlerInterface
 {

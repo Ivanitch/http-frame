@@ -2,9 +2,9 @@
 
 namespace Infrastructure\App\Logger;
 
+use Psr\Container\ContainerInterface;
 use Monolog\Handler\StreamHandler;
 use Monolog\Logger;
-use Psr\Container\ContainerInterface;
 
 class LoggerFactory
 {

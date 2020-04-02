@@ -2,9 +2,9 @@
 
 namespace Infrastructure\App\Http\Middleware;
 
-use App\Http\Middleware\BasicAuthMiddleware;
 use Psr\Container\ContainerInterface;
-use Zend\Diactoros\Response;
+use Laminas\Diactoros\Response;
+use App\Http\Middleware\BasicAuthMiddleware;
 
 class BasicAuthMiddlewareFactory
 {

@@ -4,9 +4,9 @@ namespace Framework\Http\Middleware\ErrorHandler;
 
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
+use Laminas\Stratigility\Utils;
 use Whoops\Handler\PrettyPageHandler;
 use Whoops\RunInterface;
-use Zend\Stratigility\Utils;
 
 class WhoopsErrorResponseGenerator implements ErrorResponseGenerator
 {

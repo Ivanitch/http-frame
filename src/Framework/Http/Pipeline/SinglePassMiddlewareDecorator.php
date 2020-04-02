@@ -6,7 +6,7 @@ use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
 use Psr\Http\Server\MiddlewareInterface;
 use Psr\Http\Server\RequestHandlerInterface;
-use Zend\Stratigility\Exception;
+use Laminas\Stratigility\Exception\MissingResponseException;
 
 final class SinglePassMiddlewareDecorator implements MiddlewareInterface
 {
@@ -25,7 +25,7 @@ final class SinglePassMiddlewareDecorator implements MiddlewareInterface
         );
 
         if (! $response instanceof ResponseInterface) {
-            throw Exception\MissingResponseException::forCallableMiddleware($this->middleware);
+            throw MissingResponseException::forCallableMiddleware($this->middleware);
         }
 
         return $response;

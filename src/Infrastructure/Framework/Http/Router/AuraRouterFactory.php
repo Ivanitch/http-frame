@@ -4,7 +4,8 @@ namespace Infrastructure\Framework\Http\Router;
 
 use Aura\Router\RouterContainer;
 use Framework\Http\Router\AuraRouterAdapter;
-use Interop\Container\ContainerInterface;
+use Psr\Container\ContainerInterface;
+
 
 class AuraRouterFactory
 {

@@ -2,17 +2,17 @@
 
 namespace App\Http\Action\Blog;
 
-use App\ReadModel\Pagination;
-use App\ReadModel\PostReadRepository;
-use Framework\Template\TemplateRenderer;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
 use Psr\Http\Server\RequestHandlerInterface;
-use Zend\Diactoros\Response\HtmlResponse;
+use Laminas\Diactoros\Response\HtmlResponse;
+use App\ReadModel\Pagination;
+use App\ReadModel\PostReadRepository;
+use Framework\Template\TemplateRenderer;
 
 class IndexAction implements RequestHandlerInterface
 {
-    private const PER_PAGE = 5;
+    const PER_PAGE = 5;
 
     private $posts;
     private $template;

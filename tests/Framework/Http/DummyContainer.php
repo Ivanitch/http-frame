@@ -2,8 +2,8 @@
 
 namespace Tests\Framework\Http;
 
+use Laminas\ServiceManager\Exception\ServiceNotFoundException;
 use Psr\Container\ContainerInterface;
-use Zend\ServiceManager\Exception\ServiceNotFoundException;
 
 class DummyContainer implements ContainerInterface
 {

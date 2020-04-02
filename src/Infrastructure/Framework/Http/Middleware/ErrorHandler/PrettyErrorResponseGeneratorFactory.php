@@ -3,8 +3,8 @@
 namespace Infrastructure\Framework\Http\Middleware\ErrorHandler;
 
 use Framework\Template\TemplateRenderer;
+use Laminas\Diactoros\Response;
 use Psr\Container\ContainerInterface;
-use Zend\Diactoros\Response;
 
 class PrettyErrorResponseGeneratorFactory
 {

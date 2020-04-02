@@ -2,13 +2,13 @@
 
 namespace Framework\Http\Middleware;
 
-use Framework\Http\Router\Exception\RequestNotMatchedException;
-use Framework\Http\Router\Result;
-use Framework\Http\Router\Router;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
 use Psr\Http\Server\MiddlewareInterface;
 use Psr\Http\Server\RequestHandlerInterface;
+use Framework\Http\Router\Exception\RequestNotMatchedException;
+use Framework\Http\Router\Result;
+use Framework\Http\Router\Router;
 
 class RouteMiddleware implements MiddlewareInterface
 {

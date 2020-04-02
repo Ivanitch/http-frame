@@ -1,9 +1,11 @@
 <?php
 
+use Roave\PsrContainerDoctrine\EntityManagerFactory;
+
 return [
   'dependencies' => [
     'factories'  => [
-      Doctrine\ORM\EntityManagerInterface::class => ContainerInteropDoctrine\EntityManagerFactory::class,
+      Doctrine\ORM\EntityManagerInterface::class => EntityManagerFactory::class,
     ],
   ],
 

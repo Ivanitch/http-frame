@@ -2,15 +2,15 @@
 
 namespace Framework\Http;
 
-use Framework\Http\Pipeline\MiddlewareResolver;
-use Framework\Http\Router\RouteData;
-use Framework\Http\Router\Router;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
 use Psr\Http\Server\MiddlewareInterface;
 use Psr\Http\Server\RequestHandlerInterface;
-use Zend\Stratigility\Middleware\PathMiddlewareDecorator;
-use Zend\Stratigility\MiddlewarePipe;
+use Laminas\Stratigility\Middleware\PathMiddlewareDecorator;
+use Laminas\Stratigility\MiddlewarePipe;
+use Framework\Http\Pipeline\MiddlewareResolver;
+use Framework\Http\Router\RouteData;
+use Framework\Http\Router\Router;
 
 class Application implements MiddlewareInterface, RequestHandlerInterface
 {

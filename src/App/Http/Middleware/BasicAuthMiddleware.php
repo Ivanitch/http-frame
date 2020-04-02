@@ -9,7 +9,7 @@ use Psr\Http\Server\RequestHandlerInterface;
 
 class BasicAuthMiddleware implements MiddlewareInterface
 {
-    public const ATTRIBUTE = '_user';
+    const ATTRIBUTE = '_user';
 
     private $users;
     private $responsePrototype;

@@ -2,11 +2,11 @@
 
 namespace App\Http\Action;
 
-use Framework\Template\TemplateRenderer;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
 use Psr\Http\Server\RequestHandlerInterface;
-use Zend\Diactoros\Response\HtmlResponse;
+use Laminas\Diactoros\Response\HtmlResponse;
+use Framework\Template\TemplateRenderer;
 
 class AboutAction implements RequestHandlerInterface
 {
