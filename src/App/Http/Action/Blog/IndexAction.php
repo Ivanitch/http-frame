@@ -12,7 +12,7 @@ use Framework\Template\TemplateRenderer;
 
 class IndexAction implements RequestHandlerInterface
 {
-    const PER_PAGE = 5;
+    const PER_PAGE = 20;
 
     private $posts;
     private $template;
